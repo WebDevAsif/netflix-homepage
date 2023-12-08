@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.csss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- ========================Hero-section====================== -->
+
+      <div class="hero-section">
+        <div class="dummy"></div>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./assets/logo.svg" alt="" />
+          </div>
+          <div class="nav-btn">
+            <button class="lang-btn">
+              <i class="fa-solid fa-language"></i>
+              <select class="select">
+                <option value="English" selected>English</option>
+                <option value="Hindi">Hindi</option>
+              </select>
+            </button>
+            <button class="btn-red">Sign in</button>
+          </div>
+        </nav>
+        <div class="hero">
+          <h1>Unlimited movies, TV shows and more</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+          <div class="hero-input">
+            <input size="30" type="text" class="hero-input" placeholder="Email address" />
+            <button>Get Started <i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================Enjoy-section====================== -->
+
+      <div class="container">
+        <div class="container-col">
+          <div class="col container-title">
+            <h2>Enjoy on your TV</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+          </div>
+          <div class="col">
+            <div class="col-img">
+              <img src="./assets/tv.png" alt="" />
+              <video src="./assets/video-tv-in-0819.m4v" autoplay playsinline muted loop></video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================Download-section====================== -->
+
+      <div class="container">
+        <div class="container-col">
+          <div class="col">
+            <div class="col-img">
+              <img src="./assets/mobile-0819.jpg" alt="" class="dolphin" />
+              <div id="download-div">
+                <img src="./assets/boxshot.png" class="dolphin" />
+                <div class="dld-strange-dld">
+                  <div class="stranger">Stranger Things</div>
+                  <div class="dld-strange">Downloading...</div>
+                </div>
+                <img src="./assets/download-icon.gif" class="dld-icon" />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Download your shows to watch offline</h2>
+            <p>Save your favourites easily and always have something to watch.</p>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================Watch-section====================== -->
+
+      <div class="container">
+        <div class="container-col">
+          <div class="col">
+            <h2>Watch everywhere</h2>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+          </div>
+          <div class="col">
+            <div class="col-img">
+              <img src="./assets/device-pile-in.png" />
+              <video src="./assets/video-devices-in.m4v" autoplay muted playsinline loop class="saif-vdo"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================Kids-section====================== -->
+
+      <div class="container">
+        <div class="container-col">
+          <div class="col">
+            <img src="./assets/kids.png" alt="" />
+          </div>
+          <div class="col">
+            <h2>Create profiles for kids</h2>
+            <p>
+              Send children on adventures with their favourite characters in a space made just for them—free with your
+              membership.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================FAQ-section====================== -->
+
+      <div class="container">
+        <div class="container-faq">
+          <h2 class="faq">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <ul>
+            <li>
+              <h3>
+                <button type="submit">
+                  <span>What is Netflix?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries and more – on thousands of internet-connected devices.
+                <br />
+                <br />
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                price. There's always something new to discover, and new TV shows and movies are added every week!
+              </span>
+            </div>
+            <li>
+              <h3>
+                <button>
+                  <span>How much does Netflix cost?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+              </span>
+            </div>
+            <li>
+              <h3>
+                <button>
+                  <span>Where can I watch?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+                from your personal computer or on any internet-connected device that offers the Netflix app, including
+                smart TVs, smartphones, tablets, streaming media players and game consoles.
+                <br />
+                <br />
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+              </span>
+            </div>
+            <li>
+              <h3>
+                <button>
+                  <span>How do I cancel?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+              </span>
+            </div>
+            <li>
+              <h3>
+                <button>
+                  <span>What can I watch on Netflix?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+                originals, and more. Watch as much as you want, anytime you want.
+              </span>
+            </div>
+            <li>
+              <h3>
+                <button>
+                  <span>Is Netflix good for kids?</span>
+                  <div class="faq-icon">
+                    <img src="./assets/plus.svg" alt="" />
+                  </div>
+                </button>
+              </h3>
+            </li>
+            <div class="statement">
+              <span>
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and films in their own space.
+                <br />
+                <br />
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.
+              </span>
+            </div>
+          </ul>
+        </div>
+        <div class="last-inp">
+          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+          <div class="hero-input">
+            <input size="30" type="text" class="hero-input" placeholder="Email address" />
+            <button>Get Started <i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="seperation"></div>
+      <!-- ========================Footer-section====================== -->
+      <footer class="footer-section">
+        <div class="footer-accordion">
+          <p>Questions? Call 000-800-919-1694</p>
+          <div class="footer-col">
+            <div class="footer-lists">
+              <p>FAQ</p>
+              <p>Investor Relation</p>
+              <p>Privacy</p>
+              <p>Speed Test</p>
+            </div>
+            <div class="footer-col">
+              <div class="footer-lists">
+                <p>Help Center</p>
+                <p>Jobs</p>
+                <p>Cookie Preferences</p>
+                <p>Legal Notices</p>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-lists">
+                <p>Account</p>
+                <p>Way to Watch</p>
+                <p>Corprate Information</p>
+                <p>Only on Netflix</p>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-lists">
+                <p>Media Center</p>
+                <p>Terms of Use</p>
+                <p>Contact Us</p>
+              </div>
+            </div>
+          </div>
+          <button class="lang-btn">
+            <i class="fa-solid fa-language"></i>
+            <select class="select">
+              <option value="English" selected>English</option>
+              <option value="Hindi">Hindi</option>
+            </select>
+          </button>
+          <p class="last-paragraph">Netfllix India</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
